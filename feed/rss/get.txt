@@ -1,0 +1,11 @@
+200 OK
+
+<rss
+<title>my great feed</title>
+Content-Type: application/rss+xml
+
+between: <channel> <\/channel>
+regexp: entry\s+(\d+)
+
+validator: our $cnt_ent = scalar @{captures()} ; [ $cnt_ent == 10, "entries number equal to $cnt_ent" ]
+

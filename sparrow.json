@@ -1,0 +1,7 @@
+{
+    "version": "0.0.1",
+    "name" : "swat-dancer2-plugin-feed",
+    "description": "swat intergarion tests for Dancer2::Plugin::Feed",
+    "url" : "https://github.com/melezhik/swat-dancer2-plugin-feed"
+}
+

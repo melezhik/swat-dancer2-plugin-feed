@@ -1,0 +1,7 @@
+200 OK
+regexp: <feed.*Atom">
+<title>my great feed</title>
+
+between: <feed.*> <\/feed>
+regexp: entry\s+(\d+)
+validator: our $cnt_ent = scalar @{captures()} ; [ $cnt_ent == 10, "entries number equal to $cnt_ent" ]
